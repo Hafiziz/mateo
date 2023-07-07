@@ -1,20 +1,22 @@
-
 var btn = document.getElementsByTagName("button")[0];
 
 
-function ac(){
+function ac() {
 
     var inp = document.getElementsByTagName("input")[0];
     var sandiqQpq = document.getElementsByClassName("sandiq")[0];
-   
-    if(inp.value === "433"){
+    var a = document.getElementsByTagName("a")[0];
 
-        // alert("Sifre duzdur ++++++");
+    if (inp.value === "433") {
+
+        
         sandiqQpq.style.marginTop = "15%";
-   }
-   else{
+        a.style.display = "block";
 
-    alert("Sifre sehvdir");
-  }
+    }
+    else {
+
+        alert("Mateo: Şifrə yanlış girilmişdir! ");
+    }
 
 }
