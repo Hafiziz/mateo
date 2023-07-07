@@ -41,11 +41,12 @@ p {
 
     margin-bottom: 20%;
     align-items: center;
-    padding-top: 13%;
-
+ 
+padding-top: 13%;
 
 
 }
+
 
 input {
     width: 70vw;
@@ -85,12 +86,14 @@ input {
     background-color: #817162;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 1px solid white;
     margin-bottom: -13%;
     z-index: 1;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     border-bottom-left-radius: 0.2rem;
     border-bottom-right-radius: 0.2rem;
+ 
 
 }
 
@@ -107,6 +110,7 @@ input {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-bottom: 1.7rem;
     transition: 0.5s;
+    border: 1px solid white;
 
 }
 
@@ -128,12 +132,26 @@ button {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 1.3rem;
     margin: auto;
+    border: 1px solid white;
 }
 
 .sp2 {
     width: 1rem;
     height: 100%;
-
+    border: 1px solid white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: auto;
+}
+
+a{
+    display: none;
+    text-decoration: none;
+    color: #435B66;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+a:hover{
+    opacity: 0.5;
 }
